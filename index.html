@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorador de lugares</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Explorador de Destinos</h1>
+      <nav>
+        <ul>
+          <li><a href="#destinos">Destinos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="destinos">
+        <h2>Destinos Populares</h2>
+        <div class="grid-container">
+          <div class="card">
+            <img src="praia.jpg" alt="Praia paradisíaca" />
+            <h3>Praias</h3>
+            <p>
+              Relaxe nas areias douradas e aproveite águas cristalinas que
+              convidam ao descanso. Descubra destinos exóticos, perfeitos para
+              mergulho e aventuras ao sol. Cada praia tem uma beleza única
+              esperando por você.
+            </p>
+          </div>
+          <div class="card">
+            <img src="montanha.jpeg" alt="Montanha com neve" />
+            <h3>Montanhas</h3>
+            <p>
+              Conquiste picos desafiadores e explore trilhas cheias de beleza
+              natural. As montanhas oferecem vistas de tirar o fôlego e um
+              refúgio tranquilo. Venha se conectar com a majestosa força da
+              natureza.
+            </p>
+          </div>
+          <div class="card">
+            <img src="cidade.jpg" alt="Cidade moderna" />
+            <h3>Cidades</h3>
+            <p>
+              Explore a vibrante vida urbana e conheça culturas fascinantes em
+              cada esquina. Cidades grandes e pequenas oferecem arquitetura
+              histórica, culinária deliciosa e momentos inesquecíveis. A
+              aventura começa aqui.
+            </p>
+          </div>
+          <div class="card">
+            <img src="selva.jpeg" alt="Selva exótica" />
+            <h3>Selvas</h3>
+            <p>
+              Descubra a riqueza da vida selvagem em paisagens exuberantes e
+              inexploradas. Aventure-se em florestas tropicais e admire a
+              biodiversidade que transforma cada visita em uma jornada incrível.
+              Sinta-se parte da natureza.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="sobre">
+        <h2>Quem Somos</h2>
+        <p>
+          No Explorador de Destinos, acreditamos que viajar vai além de visitar
+          lugares — é descobrir novas culturas, criar memórias inesquecíveis e
+          se reconectar com o mundo e consigo mesmo. 🌍
+        </p>
+        <p>
+          Somos um grupo de viajantes apaixonados que decidiu transformar
+          experiências em inspiração. Aqui você encontra dicas, roteiros e
+          histórias que vão despertar sua vontade de arrumar as malas e partir
+          em busca do próximo destino.
+        </p>
+        <p>
+          Nosso objetivo é tornar sua jornada mais leve, divertida e cheia de
+          significado. Seja nas praias mais isoladas ou nas cidades mais
+          vibrantes, estamos com você em cada passo. ✈️
+        </p>
+      </section>
+      <section id="contato">
+        <h2>Contato</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Explorador de Destinos. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
